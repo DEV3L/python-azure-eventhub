@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-.env
+.env*
 .idea/*
 sandbox/*
 .pytest_cache/
