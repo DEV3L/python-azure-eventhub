@@ -8,13 +8,13 @@ with open('requirements.txt') as file:
             requirements.append(line)
 
 setup(
-    name='python-azure-etl',
+    name='python-azure-eventhub',
     packages=find_packages(),
     version='0.1',
-    description='Python Hello World example of ETL Pipeline using Microsoft Azure.',
+    description='Python Hello World example of Microsoft Azure Event Hub.',
     author='Justin Beall',
     author_email='jus.beall@gmail.com',
-    keywords=['dev3l', 'python', 'azure', 'eventhub', 'etl'],
+    keywords=['dev3l', 'python', 'azure', 'eventhub'],
     install_requires=requirements,
     classifiers=[
         'Environment :: Console',
