@@ -1,5 +1,12 @@
 from setuptools import setup, find_packages
 
+requirements = []
+
+with open('requirements.txt') as file:
+    for line in file:
+        if line:
+            requirements.append(line)
+
 setup(
     name='python-azure-etl',
     packages=find_packages(),
@@ -8,10 +15,7 @@ setup(
     author='Justin Beall',
     author_email='jus.beall@gmail.com',
     keywords=['dev3l', 'python', 'azure', 'eventhub', 'etl'],
-    install_requires=[
-        'pytest',
-        'azure-eventhub',
-    ],
+    install_requires=requirements,
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',

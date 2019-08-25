@@ -13,6 +13,8 @@ Python Hello World example of ETL Pipeline using Microsoft Azure.
 - `mkvirtualenv -p /usr/local/bin/python3 python-azure-etl`
 - `python setup.py develop`
 
+## Run
+
 
 ## Contributing
 
